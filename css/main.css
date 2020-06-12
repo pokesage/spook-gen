@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+
+html, body {
+  margin: 0;
+  height: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  perspective: 800;
+ 
+}
+
+#c {   
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  z-index: -1;
+}
+
+p {
+  font: 2vw "Chelsea Market", cursive;
+  color: white;
+  justify-content: center;
+  max-width: 55vw;
+  margin: 0 auto;
+  line-height: 3;
+  top: auto;
+  mix-blend-mode: screen;
+  min-height: 100vh;
+  transform-style: preserve-3d;
+  animation: perspective 30s cubic-bezier(0.35, 0.06, 0.92, 0.03) infinite;
+}
+
+@keyframes perspective {
+  0% {
+    perspective: 100px;
+    transform: scale(0.5);
+  }
+  100% {
+    perspective: 10000px;
+    transform: scale(2);
+  }
+}
+span {
+  display: inline-block;
+}
+span:nth-child(1) {
+  transform: translateZ(-391.6527062003px);
+}
+span:nth-child(2) {
+  transform: translateZ(-223.7186190937px);
+}
+span:nth-child(3) {
+  transform: translateZ(-844.9075063972px);
+}
+span:nth-child(4) {
+  transform: translateZ(-384.176947673px);
+}
+span:nth-child(5) {
+  transform: translateZ(-639.97033735px);
+}
+span:nth-child(6) {
+  transform: translateZ(-477.2159602463px);
+}
+span:nth-child(7) {
+  transform: translateZ(-563.801274302px);
+}
+span:nth-child(8) {
+  transform: translateZ(-917.8145881181px);
+}
+span:nth-child(9) {
+  transform: translateZ(-178.3941180028px);
+}
+span:nth-child(10) {
+  transform: translateZ(-819.0797970175px);
+}
+span:nth-child(11) {
+  transform: translateZ(-115.4709802362px);
+}
+span:nth-child(12) {
+  transform: translateZ(-433.6381682434px);
+}
+span:nth-child(13) {
+  transform: translateZ(-199.2072517291px);
+}
+span:nth-child(14) {
+  transform: translateZ(-13.6654322822px);
+}
+span:nth-child(15) {
+  transform: translateZ(-461.3087489291px);
+}
+span:nth-child(16) {
+  transform: translateZ(-721.2033812648px);
+}
+span:nth-child(17) {
+  transform: translateZ(-254.6263097278px);
+}
+span:nth-child(18) {
+  transform: translateZ(-599.0885454564px);
+}
+span:nth-child(19) {
+  transform: translateZ(-466.8668635275px);
+}
+span:nth-child(20) {
+  transform: translateZ(-198.9936402302px);
+}
+span:nth-child(21) {
+  transform: translateZ(-767.1965409469px);
+}
+span:nth-child(22) {
+  transform: translateZ(-468.5075638682px);
+}
+span:nth-child(23) {
+  transform: translateZ(-83.9247101531px);
+}
+span:nth-child(24) {
+  transform: translateZ(-962.2853511701px);
+}
+span:nth-child(25) {
+  transform: translateZ(-163.8057213155px);
+}
+span:nth-child(26) {
+  transform: translateZ(-165.3479230133px);
+}
+span:nth-child(27) {
+  transform: translateZ(-176.1049706983px);
+}
+span:nth-child(28) {
+  transform: translateZ(-638.3437922157px);
+}
+span:nth-child(29) {
+  transform: translateZ(-693.6036977572px);
+}
+span:nth-child(30) {
+  transform: translateZ(-318.134603869px);
+}
+span:nth-child(31) {
+  transform: translateZ(-416.6197839211px);
+}
+span:nth-child(32) {
+  transform: translateZ(-141.0210796799px);
+}
+span:nth-child(33) {
+  transform: translateZ(-890.2936927858px);
+}
+span:nth-child(34) {
+  transform: translateZ(-530.3045101866px);
+}
+span:nth-child(35) {
+  transform: translateZ(-76.0999491069px);
+}
+span:nth-child(36) {
+  transform: translateZ(-160.7402261811px);
+}
+span:nth-child(37) {
+  transform: translateZ(-641.9423083691px);
+}
+span:nth-child(38) {
+  transform: translateZ(-346.9133830792px);
+}
+span:nth-child(39) {
+  transform: translateZ(-833.792988441px);
+}
+span:nth-child(40) {
+  transform: translateZ(-186.3590895432px);
+}
+span:nth-child(41) {
+  transform: translateZ(-66.1848813106px);
+}
+span:nth-child(42) {
+  transform: translateZ(-317.7661064955px);
+}
+span:nth-child(43) {
+  transform: translateZ(-674.0890786323px);
+}
+span:nth-child(44) {
+  transform: translateZ(-215.4489334255px);
+}
+span:nth-child(45) {
+  transform: translateZ(-447.664827724px);
+}
+span:nth-child(46) {
+  transform: translateZ(-593.4193401974px);
+}
+span:nth-child(47) {
+  transform: translateZ(-816.3112557768px);
+}
+span:nth-child(48) {
+  transform: translateZ(-6.9478943047px);
+}
+span:nth-child(49) {
+  transform: translateZ(-466.1404323849px);
+}
+span:nth-child(50) {
+  transform: translateZ(-814.5647616597px);
+}
+span:nth-child(51) {
+  transform: translateZ(-822.6485368891px);
+}
+span:nth-child(52) {
+  transform: translateZ(-291.9281101097px);
+}
+span:nth-child(53) {
+  transform: translateZ(-377.1079932255px);
+}
+span:nth-child(54) {
+  transform: translateZ(-264.6925283032px);
+}
+span:nth-child(55) {
+  transform: translateZ(-70.7232143435px);
+}
+span:nth-child(56) {
+  transform: translateZ(-966.8625401991px);
+}
+span:nth-child(57) {
+  transform: translateZ(-357.2227333048px);
+}
+span:nth-child(58) {
+  transform: translateZ(-235.8829083663px);
+}
+span:nth-child(59) {
+  transform: translateZ(-939.3981488531px);
+}
+span:nth-child(60) {
+  transform: translateZ(-335.8218208128px);
+}
+span:nth-child(61) {
+  transform: translateZ(-880.0382674927px);
+}
+span:nth-child(62) {
+  transform: translateZ(-391.4818042451px);
+}
+span:nth-child(63) {
+  transform: translateZ(-112.3147918218px);
+}
+span:nth-child(64) {
+  transform: translateZ(-716.0311380656px);
+}
+span:nth-child(65) {
+  transform: translateZ(-459.6733502272px);
+}
+span:nth-child(66) {
+  transform: translateZ(-459.4143547937px);
+}
+span:nth-child(67) {
+  transform: translateZ(-749.25222827px);
+}
+span:nth-child(68) {
+  transform: translateZ(-734.4492808483px);
+}
+span:nth-child(69) {
+  transform: translateZ(-234.3759235421px);
+}
+span:nth-child(70) {
+  transform: translateZ(-112.3012208177px);
+}
+
+/*# sourceMappingURL=main.css.map */

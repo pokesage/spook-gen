@@ -1,2 +1,2 @@
-# spook-gen
-a platform for live generative poetry reading
+# Web VR Interactive Horror Stories
+

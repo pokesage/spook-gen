@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" type="text/css" href="./css/main2.css">
+    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+    <title>Reading You A "Poe"m</title>
+  </head>
+  <body>
+    <p id="one"></p>
+    <p id="two"></p>
+    <p id="three"></p>
+    <p id="four"></p>
+   
+    <p>
+        <a href="https://5d30da162f10.ngrok.io/index2.html">Hear Another?</a> 
+    </p>
+    <canvas id="c"></canvas>
+    
+    <div id="twitch"></div>
+    <script type = "text/javascript">
+    const options = {
+      width : 400,
+      height : 400,
+      channel : "melahi48",
+    };
+    const player = new Twitch.Player("twitch", options);
+    player.setVolume(0.7);
+    </script>
+    <script src="main2.js" type="module"></script> 
+  </body>
+</html>
+

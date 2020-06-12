@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "spooky-gen",
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
